@@ -13,6 +13,13 @@
 		28C0F7A41AC143DE000B577E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C0F7A31AC143DE000B577E /* Images.xcassets */; };
 		28C0F7A71AC143DE000B577E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28C0F7A51AC143DE000B577E /* LaunchScreen.xib */; };
 		28C0F7B31AC143DE000B577E /* Archiver_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0F7B21AC143DE000B577E /* Archiver_DemoTests.swift */; };
+		28C0F7BE1AC146E8000B577E /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0F7BD1AC146E8000B577E /* Course.swift */; };
+		28C0F7C61AC15263000B577E /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0F7C51AC15263000B577E /* Teacher.swift */; };
+		28C0F7C81AC15704000B577E /* TeacherAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0F7C71AC15704000B577E /* TeacherAddViewController.swift */; };
+		28C0F7DD1AC16AC0000B577E /* archiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0F7DC1AC16AC0000B577E /* archiver.swift */; };
+		28C0F7E01AC171A8000B577E /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0F7DF1AC171A8000B577E /* TeacherListViewController.swift */; };
+		28C0F7E21AC17E48000B577E /* CourseAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0F7E11AC17E48000B577E /* CourseAddViewController.swift */; };
+		28C0F7E41AC194E0000B577E /* CourseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0F7E31AC194E0000B577E /* CourseListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		28C0F7AC1AC143DE000B577E /* Archiver_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Archiver_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C0F7B11AC143DE000B577E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28C0F7B21AC143DE000B577E /* Archiver_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archiver_DemoTests.swift; sourceTree = "<group>"; };
+		28C0F7BD1AC146E8000B577E /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		28C0F7C51AC15263000B577E /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		28C0F7C71AC15704000B577E /* TeacherAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherAddViewController.swift; sourceTree = "<group>"; };
+		28C0F7DC1AC16AC0000B577E /* archiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = archiver.swift; sourceTree = "<group>"; };
+		28C0F7DF1AC171A8000B577E /* TeacherListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherListViewController.swift; sourceTree = "<group>"; };
+		28C0F7E11AC17E48000B577E /* CourseAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseAddViewController.swift; sourceTree = "<group>"; };
+		28C0F7E31AC194E0000B577E /* CourseListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,9 @@
 		28C0F7991AC143DE000B577E /* Archiver_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				28C0F7DE1AC16AC7000B577E /* Tools */,
+				28C0F7C41AC1507E000B577E /* Controller */,
+				28C0F7BC1AC146D8000B577E /* Model */,
 				28C0F79C1AC143DE000B577E /* AppDelegate.swift */,
 				28C0F79E1AC143DE000B577E /* ViewController.swift */,
 				28C0F7A01AC143DE000B577E /* Main.storyboard */,
@@ -110,6 +127,34 @@
 				28C0F7B11AC143DE000B577E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28C0F7BC1AC146D8000B577E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28C0F7BD1AC146E8000B577E /* Course.swift */,
+				28C0F7C51AC15263000B577E /* Teacher.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		28C0F7C41AC1507E000B577E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28C0F7C71AC15704000B577E /* TeacherAddViewController.swift */,
+				28C0F7DF1AC171A8000B577E /* TeacherListViewController.swift */,
+				28C0F7E11AC17E48000B577E /* CourseAddViewController.swift */,
+				28C0F7E31AC194E0000B577E /* CourseListViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		28C0F7DE1AC16AC7000B577E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				28C0F7DC1AC16AC0000B577E /* archiver.swift */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +257,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C0F7E01AC171A8000B577E /* TeacherListViewController.swift in Sources */,
+				28C0F7E21AC17E48000B577E /* CourseAddViewController.swift in Sources */,
+				28C0F7C81AC15704000B577E /* TeacherAddViewController.swift in Sources */,
+				28C0F7DD1AC16AC0000B577E /* archiver.swift in Sources */,
+				28C0F7C61AC15263000B577E /* Teacher.swift in Sources */,
+				28C0F7BE1AC146E8000B577E /* Course.swift in Sources */,
 				28C0F79F1AC143DE000B577E /* ViewController.swift in Sources */,
 				28C0F79D1AC143DE000B577E /* AppDelegate.swift in Sources */,
+				28C0F7E41AC194E0000B577E /* CourseListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +457,7 @@
 				28C0F7B81AC143DE000B577E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28C0F7B91AC143DE000B577E /* Build configuration list for PBXNativeTarget "Archiver_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +466,7 @@
 				28C0F7BB1AC143DE000B577E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
